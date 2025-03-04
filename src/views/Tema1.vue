@@ -188,7 +188,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img16.png', alt='Texto que describa la imagen')
           .col-md-6
-            h4Puente grúa
+            h4Puente Puente grúa
             p Estructuras industriales utilizadas para izar y desplazar cargas pesadas. Fabricadas con partes soldadas, sometidas a estrictos estándares normativos.
 
     .row.mb-2.ms-0.mt-5
