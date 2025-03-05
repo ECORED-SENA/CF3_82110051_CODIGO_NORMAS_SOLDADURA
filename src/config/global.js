@@ -88,7 +88,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/',
+        download: 'downloads/82110051_CF03.pdf',
       },
       {
         icono: 'fas fa-download',
