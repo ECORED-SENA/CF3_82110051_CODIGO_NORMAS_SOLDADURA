@@ -157,7 +157,7 @@
               img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 En aluminio
-            p Diseñadas para soportar cargas aplicadas lentamente. Ejemplo: estructuras metálicas para edificios, bodegas y centros comerciales.
+            p Fabricadas con aleaciones ligeras que facilitan su manejo y transporte. Destacan por su bajo peso.
       .py-3.py-md-4.tab-color(titulo="En láminas de acero")
         .row
           .col-md-6.mb-4.mb-md-0

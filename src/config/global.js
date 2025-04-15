@@ -187,12 +187,13 @@ export default {
     {
       referencia:
         'American Petroleum Institute. (2015).<em>Norma API 1104</em>. ',
-      link: 'http://es.scribd.com/doc/98471009/Norma-API-1104-Traducida',
+      link:
+        'https://www.api.org/~/media/files/publications/whats%20new/2015%20e7%20pa.pdf',
     },
     {
       referencia:
         'American Welding Society. (2013). <em>Norma para la certificación de inspectores de soldaduras de la AWS.</em> ',
-      link: 'https://www.aws.org/library/doclib/QC1-2007-Spanish.pdf',
+      link: 'https://kpt-bj.org/1323108620.html',
     },
     {
       referencia:
@@ -218,7 +219,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+          centro: 'Dirección General',
         },
       ],
     },
