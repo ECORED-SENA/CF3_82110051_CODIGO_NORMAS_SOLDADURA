@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Identificar  los códigos de soldadura, tipos de estructuras metálicas, equipos sometidos a presión, tanques de almacenamiento y normativas aplicadas en Colombia.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
