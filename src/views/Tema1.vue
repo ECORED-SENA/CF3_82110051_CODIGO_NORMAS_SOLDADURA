@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Selección del código de soldadura según producto a fabricar
@@ -37,13 +37,13 @@
             h4.mb-3 Cumplimiento contractual
             p.mb-0 Contratistas y subcontratistas deben garantizar el cumplimiento de las especificaciones establecidas en el código seleccionado, bajo riesgo de sanciones legales.
 
-    p.mb4 Cada proyecto soldado requiere un documento normativo que lo rige, convirtiéndose en un requisito obligatorio.
+    p.mb-4(data-aos="fade-down") Cada proyecto soldado requiere un documento normativo que lo rige, convirtiéndose en un requisito obligatorio.
 
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
       h2 1.1 Equipos sometidos a presión
 
-    p.mb4 Los equipos sometidos a presión son recipientes que contienen fluidos con presiones internas superiores a la atmosférica, lo que implica riesgos importantes, como explosiones. Estos equipos deben fabricarse según normas específicas que aseguren la seguridad y funcionalidad.
+    p.mb-4(data-aos="fade-down") Los equipos sometidos a presión son recipientes que contienen fluidos con presiones internas superiores a la atmosférica, lo que implica riesgos importantes, como explosiones. Estos equipos deben fabricarse según normas específicas que aseguren la seguridad y funcionalidad.
 
     .row.bg-1.mb-6
       .col-12
@@ -96,7 +96,6 @@
                     figure
                       img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
 
-
     .row.mb-2.ms-0.mt-5
       .col-auto.bg-c6(data-aos="fade-left")
         .row.align-items-center
@@ -110,10 +109,10 @@
       .p-5
         .col-12
         .row.mb-5
-          p Los tanques de almacenamiento son recipientes diseñados para contener líquidos o gases de manera segura. Pueden fabricarse con diferentes capacidades y para diversos usos.
+          p.mb-4(data-aos="fade-down") Los tanques de almacenamiento son recipientes diseñados para contener líquidos o gases de manera segura. Pueden fabricarse con diferentes capacidades y para diversos usos.
 
           .row
-            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .tarjeta--boton(style='background-color: white !important; padding: 0; overflow: hidden;')
                 .row.justify-content-center.mb-3
                   .col-12(style="padding: 0;")
@@ -123,7 +122,7 @@
                 p.text-center.mb-0 #[b Petróleo y derivados]
                 p.text-center.p-4 Recipientes cilíndricos empleados en refinerías para almacenamiento temporal o prolongado de petróleo y sus derivados, con capacidades de hasta 500.000 barriles.
 
-            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
               .tarjeta--boton(style='background-color: white !important; padding: 0; overflow: hidden;')
                 .row.justify-content-center.mb-3
                   .col-12(style="padding: 0;")
@@ -132,14 +131,12 @@
 
                 p.text-center.mb-0 #[b Agua]
                 p.text-center.p-4 Tanques cerrados para agua potable, fabricados bajo estándares estrictos para evitar contaminación. Sus capacidades comienzan desde los 5.000 galones.
-
-          
         
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
       h2 1.2 Estructuras
 
-    p.mb4 Las estructuras metálicas son sistemas diseñados para transmitir esfuerzos a través de pilares, vigas o columnas. Estas pueden clasificarse según sus materiales o aplicaciones específicas.
+    p.mb-4(data-aos="fade-down") Las estructuras metálicas son sistemas diseñados para transmitir esfuerzos a través de pilares, vigas o columnas. Estas pueden clasificarse según sus materiales o aplicaciones específicas.
 
     TabsC.color-acento-contenido.mb-4
       .py-3.py-md-4.tab-color(titulo="Estáticas")
@@ -200,11 +197,10 @@
           .col
             h3.mb-0.sub_titulo(style='color: black !important;') Códigos aplicables al diseño y a la soldadura
 
-
-    p El diseño y la soldadura son procesos esenciales en la fabricación de productos metálicos. Ambos se rigen por normativas específicas que aseguran su seguridad, funcionalidad y economía.
+    p(data-aos="fade-down").mb-4 El diseño y la soldadura son procesos esenciales en la fabricación de productos metálicos. Ambos se rigen por normativas específicas que aseguran su seguridad, funcionalidad y economía.
 
     .row.justify-content-center
-      .col-sm-6.col-md-10.col-lg-6.mb-4.mb-lg-0
+      .col-sm-6.col-md-10.col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-3.col-md-4
@@ -214,7 +210,7 @@
               p #[b Diseño]
               p Determina las cargas máximas que puede soportar una estructura metálica soldada bajo condiciones normales, utilizando ecuaciones matemáticas que modelan su comportamiento.
 
-      .col-sm-6.col-md-10.col-lg-6.mb-4.mb-lg-0
+      .col-sm-6.col-md-10.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-3.col-md-4
@@ -224,12 +220,11 @@
               p #[b Soldadura]
               p Define los procedimientos, calificaciones y parámetros para garantizar la calidad y seguridad de las uniones soldadas según lo establecido en los códigos normativos.
 
-
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
       h2 1.3 Documentos normativos utilizados en Colombia
 
-    p.mb4 En Colombia, se emplean normativas internacionales para regular los procesos de diseño y soldadura en estructuras metálicas. A continuación, se presentan los principales documentos:
+    p.mb-4(data-aos="fade-down") En Colombia, se emplean normativas internacionales para regular los procesos de diseño y soldadura en estructuras metálicas. A continuación, se presentan los principales documentos:
 
     .row.bg-c4
       .carousel-bg
@@ -237,7 +232,7 @@
           .col-lg-3.d-none.d-lg-block
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema1/img19.png", alt="alt").img400.m-auto
-          .col-lg-8
+          .col-lg-8(data-aos="fade-left")
             SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-4")
               .tarjeta.tarjeta--slyder.p-4
                 .row.justify-content-center.mb-3
@@ -308,7 +303,6 @@
                     img(src="@/assets/curso/temas/tema1/img24.svg", alt='', style="width: 100px").m-auto
                 p.text-small.text-center.mb-2.bg-3 #[b AWS A2.4 y AWS A5]
                 p.text-small.text-center.mb-0 Detalla símbolos para representar uniones soldadas y especificaciones de electrodos.
-
  
 </template>
 
@@ -318,6 +312,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
